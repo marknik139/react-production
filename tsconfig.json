@@ -12,7 +12,11 @@
     "esModuleInterop": true,
     // allowSyntheticDefaultImports: если какая-либо библиотека не имеет default import
     // лоадеры автоматически создают их
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    }
   },
   "ts-node": {
     "compilerOptions": {
