@@ -4,11 +4,9 @@
 @forward 'themes/dark';
 
 .app {
-  font: var(--font-m);
-
   background: var(--bg-color);
   color: var(--primary-color);
-
+  font: var(--font-m);
   min-height: 100vh;
 }
 

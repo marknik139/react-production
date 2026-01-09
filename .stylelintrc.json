@@ -1,0 +1,42 @@
+{
+    "extends": ["stylelint-config-standard-scss"],
+    "plugins": ["stylelint-order"],
+    "rules": {
+        "block-no-empty": true,
+        "declaration-no-important": true,
+        "color-no-invalid-hex": true,
+        "no-descending-specificity": true,
+        "selector-class-pattern": null,
+
+        "order/order": [
+            "custom-properties",
+            "dollar-variables",
+            "declarations",
+            "rules",
+            "at-rules"
+        ],
+
+        "order/properties-order": [
+            "position",
+            "z-index",
+            "top",
+            "right",
+            "bottom",
+            "left",
+            "display",
+            "flex",
+            "flex-direction",
+            "justify-content",
+            "align-items",
+            "width",
+            "height",
+            "margin",
+            "padding",
+            "border",
+            "background",
+            "color",
+            "font",
+            "text-align"
+        ]
+    }
+}
